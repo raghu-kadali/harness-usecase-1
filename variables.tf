@@ -1,5 +1,5 @@
 variable "project_id" {
-  description = ""
+  description = "project id"
   type        = string
   default     = "kubernetes-477004"
 }
