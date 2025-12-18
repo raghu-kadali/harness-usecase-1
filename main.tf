@@ -45,7 +45,7 @@ resource "google_compute_instance_template" "apache_template" {
 # Firewall Rule (HTTP)
 ################################
 resource "google_compute_firewall" "allow_http" {
-  name    = "allow-http"
+  name    = "allow-http-raghu"
   network = "default"
 
   allow {
