@@ -1,6 +1,7 @@
 variable "project_id" {
-  description = "kubernetes-477004"
+  description = ""
   type        = string
+  default     = "kubernetes-477004"
 }
 
 variable "region" {
